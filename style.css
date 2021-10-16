@@ -51,6 +51,7 @@ body {
 }
 
 .social-buttons .button {
+    position: relative;
     display: flex;
     align-content: center;
     justify-content: center;
@@ -69,16 +70,17 @@ body {
 }
 
 .social-buttons .button svg {
+    position: absolute;
     margin-left: 10px;
+    left: 0;
     width: 28px;
     height: 28px;
     align-self: center;
-    fill: white;
+    fill: #fff;
 }
 
 .social-buttons .button span {
     align-self: center;
-    padding-left: 10px;
     margin-top: 2px;
     font-size: 20px;
     font-weight: 500;
